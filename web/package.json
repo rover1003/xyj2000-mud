@@ -1,0 +1,15 @@
+{
+  "name": "xyj-web",
+  "version": "1.0.0",
+  "description": "西游记2000 Web MUD 客户端 — WebSocket ↔ Telnet 桥接",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "iconv-lite": "^0.6.3",
+    "mime": "^4.0.1"
+  }
+}
